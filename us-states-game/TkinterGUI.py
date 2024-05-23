@@ -1,4 +1,13 @@
+from tkinter import *
 
+window = Tk()
+window.title("Proggrem")
+window.minsize(width=500, height=300)
+
+l1 = Label(text="Miles", font=("Jokerman", 22, "bold"))
+l1.grid()
+
+e1 = Entry(width = 10)
 e1.insert(END,string = "0")
 e1.grid(column=1,row=0)
 
